@@ -1,0 +1,381 @@
+/* ここから下に記載していく */
+
+.all container{
+width: 1200px;
+margin: 0 auto;
+}
+
+.navi{
+    display: flex;
+    justify-content: flex-end; /* コンテンツを右寄せにする */
+    align-items: center; /* 高さ中央揃えにする（必要に応じて） */
+    height: 50px; /* 高さを設定 */
+}
+.navi a{
+    display: block;
+    font-size: 21px;
+    font-weight: normal;
+    width: 50px;
+    height: 60px;
+    margin-left: 50px;
+    margin-right: 50px; /* リンク間のスペース */
+}
+.navi a:last-child {
+    margin-right: 0; /* 最後のアイテムの余分なマージンを削除 */
+}
+
+.box1{
+    position: relative;
+}
+.box1 img{
+    width: 100%;
+}
+.b1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+.b1-1{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.b1-2{
+    font-size: 24px;  
+}
+.about{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0 auto;
+}
+.a{
+    text-align: center;
+}
+.a1{
+    font-size: 18px;
+    padding-bottom: 30px;
+
+}
+.a2{
+    padding-bottom: 40px;
+    font-size: 16px;
+}
+.a3{
+    font-size: 16px;
+}
+.a4{
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+.a5{
+    padding-bottom: 40px;
+    font-size: 16px;
+}
+.a6{
+    font-size: 16px;
+}
+.a7{
+    font-size: 16px;
+    padding-bottom: 80px;
+}
+.box2{
+    display: flex;
+    padding-bottom: 60px;
+}
+.box2 img{
+    width: 100%
+}
+.course{
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+.c{
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.course-1{
+    display: flex;   
+    margin: o auto; 
+}
+.course-1 img{
+    width: 600px !important;
+    height: 400px !important;
+    object-fit: cover;
+    padding-right: 0px;
+}
+.c-1{
+    text-align: left;
+    padding-left: 50px;
+}
+.c-11{
+    padding-top: 120px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 600px;
+}
+.c-12{
+    font-size: 16px;
+    width: 600px;
+    padding-left: 0px;
+}
+.course-2{
+    display: flex;
+    margin: o auto;
+}
+.course-2 img{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+.c-2{
+    text-align: left;
+    padding-right: 0px;
+}
+.c-21{
+    padding-top: 120px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: bold; 
+    width: 600px;
+    padding-right: 0px;
+}
+.c-22{
+    font-size: 16px;
+    width: 600px;
+}
+
+.course-3{
+    display: flex;
+    margin: 0 auto;
+}
+.course-3 img{
+    object-fit: fill;
+    width: 600px;
+    height: 400px;
+    
+}
+.c-3{
+    text-align: left;
+    padding-left: 50px;
+}
+.c-31{
+    padding-top: 120px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: bold; 
+    width: 600px;
+}
+.c-32{
+    font-size: 16px;
+    width: 600px;
+}
+
+.news{
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.news1{
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+.news-content-container{
+    display: flex; /* コンテナ内の要素を横並びにする */
+    justify-content: space-around; /* アイテム間に適度なスペースを設ける */
+    margin-right: 30px;
+}
+.item{
+    display: flex;
+    flex-direction: column; /*アイテムを縦に並べる */
+    align-items: flex-start; /*左端に揃える */
+}
+.item img{
+    width: calc(100% -30px); /* 画像の幅を親要素の幅からマージンを引いた値に設定 */
+    height: auto; /* 画像の高さを自動調整する */
+    margin-right: 30px;
+}
+.text{
+    width: calc(100% -30px); /* 画像の幅を親要素の幅からマージンを引いた値に設定 */
+    text-align: left;
+    font-size: 16px;
+    color: black;
+}
+.date{
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: yellow;
+    display: flex;
+    width: 300px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+}
+a:hover{
+    background: orange;
+}
+.navi a{
+    color: inherit;  /* 親要素から色を継承 */
+    background-color: transparent; /* 背景色を透明に設定 */
+    padding: 0; /* パディングを無効化 */
+    text-decoration: none; /* テキストデコレーションを無効化 */
+    display: inline-block; /* 各リンクをインラインブロックとして扱う */
+}
+
+.map-container{
+    width: 1200px;
+    padding: 60px 0px;
+    margin: auto;
+    background-color: gainsboro;
+}
+.access{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.info{
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.map-info{
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    margin: 60px 0px;
+}
+.contact{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+.contact text{
+    text-align: center;
+}
+.ct1{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+.ct2{
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.ct3{
+    font-size: 16px;
+    font-weight: normal;
+}
+.custom-form{
+    width: 400px; /* コンテナの幅を指定 */
+    margin: 0 auto;
+    border-top: 2px solid #bfbfbf; /* 上の境界線 */
+    border-bottom: 2px solid #bfbfbf; /* 下の境界線 */
+    box-sizing: border-box; /* パディングとボーダーを幅と高さに含める */
+    display: flex; /* Flex表示を追加 */
+    flex-direction: column; /* フォームフィールドを縦に積み重ねる */
+}
+.form-field{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-bottom: 1px solid #bfbfbf;
+    width: 400px;
+    display: flex; /* 各フォームフィールドをflexコンテナにする */
+    align-items: center; /* ラベルと入力を垂直方向に中央揃え */
+}
+.form-field label{
+    display: block;
+    font-size: 16px;
+    color: black;
+    flex: 1;
+    margin-right: 10px; /* ラベルと入力の間にスペースを追加 */
+    border-right: 2px solid #bfbfbf; /* ラベルの右側に縦線を追加 */
+    padding-right: 10px; /* ボーダーとテキストの間に余白を設定 */
+}
+.input-name{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    box-sizing: border-box; /* paddingとborderを高さに含む */
+}
+.form-field > label[for="purpose"] {
+    border-right: none;
+    padding-right: 0;
+}
+label[for="purpose"] {
+    border-right: none !important;
+    padding-right: 0 !important;
+}
+
+.form-field:not(:last-child) {
+    border-right: none; /* 元の縦線のスタイルを削除 */
+}
+
+.select-name{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    box-sizing: border-box; /* paddingとborderを高さに含む */
+}  
+
+.detail-name{
+    width: 300px;
+    height: 150px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.form-field-detail-no-border{
+    border-bottom: none;
+}
+
+.send a{
+    margin: 0px;
+}
+.send{
+    margin-top: 30px; /* 上マージンのみ変更 */
+    margin-bottom: 140px; /* 下マージンのみ変更 */
+    display: flex; /* aタグの中央配置を保持するために必要 */
+    justify-content: center; /* 中央揃えを継続 */ 
+}
+
+.copyright{
+    background-color: #707070;
+    width: 100%;
+    padding: 30px 0px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
